@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Table from './componet/Table';
+import Card from './componet/Card';
+import { Component, useState } from 'react';
+import Timer from './componet/Timer';
+import Counterf from './componet/Counterf';
+import Input from './componet/Input';
+import { Formval } from './componet/Formval';
+import Fetch from './componet/Fetch';
+import Todo from './componet/Todo';
+import React from 'react';
+import Todo1 from './componet/Todo1';
+import Eventhandler from './componet/Eventhandler'
+import { Route, Routes } from 'react-router-dom'
+import Nav from './componet/Nav';
+
+// const UserWithComp = WhitLoading(UserList)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav/>
+      <Routes>
+        <Route path='/Todo' element={<Todo/>}/>
+        <Route path='/Timer'element={<Timer/>}/>
+      </Routes>
+    </>
   );
 }
+
 
 export default App;
