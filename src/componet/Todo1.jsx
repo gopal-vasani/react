@@ -1,9 +1,17 @@
 import React, { useState } from 'react'
 export default function Todo1() {
 
+  let sorted = JSON.parse(localStorage.getItem("user")) || []
+
   const [task, setTask] = useState("")
-  const [list, setList] = useState([])
+  const [list, setList] = useState(sorted)
   const [edit, setEdit] = useState(null)
+
+
+  useEffect(() => {
+    localStorage.setItem("user", JSON.stringify(list));
+  }, [list])
+
 
   function handlesubmit(e) {
     setTask(e.target.value)

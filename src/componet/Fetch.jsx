@@ -9,10 +9,6 @@ function Fetch() {
             .then((data) => {
                 setUsers(data);
             })
-
-            .catch((error) => {
-                console.log("Error:", error);
-            })
     }, [])
 
     return (
