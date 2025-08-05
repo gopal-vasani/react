@@ -22,6 +22,8 @@
 
 import HomePage from "./componet/HomePage";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 // const UserWithComp = WhitLoading(UserList)
