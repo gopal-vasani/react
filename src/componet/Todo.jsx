@@ -1,7 +1,10 @@
+// To-Do List Using UseState
+// -------------------------
+
 import { useState } from "react";
 
 function Demo() {
-    const [text, settext] = useState()
+    const [text, settext] = useState("")
     const [list, setlist] = useState([])
     const [edit, setedit] = useState(null)
 
@@ -9,19 +12,18 @@ function Demo() {
         settext(e.target.value)
     }
 
-    function handeladd(index) {
-
+    function handeladd() {
         if (edit !== null) {
-            const updaeList = [...list]
-            updaeList[edit] = text
-            setlist(updaeList)
+            const updateList = [...list]
+            updateList[edit] = text
+            setlist(updateList)
             setedit(null)
         } else {
             setlist([...list, text])
-
         }
         settext("")
     }
+
 
     function handeledit(index) {
         settext(list[index])

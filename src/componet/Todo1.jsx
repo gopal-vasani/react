@@ -1,4 +1,7 @@
-import React, { useState } from 'react'
+// To-Do List Using UseEffect
+// --------------------------
+
+import React, { useEffect, useState } from 'react'
 export default function Todo1() {
 
   let sorted = JSON.parse(localStorage.getItem("user")) || []

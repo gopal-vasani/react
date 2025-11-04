@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "description": "Learn the basics of React and how to build your first component",
+      "content": "React is a powerful JavaScript library for building user interfaces. In this post, we'll explore the fundamentals of React and create our first component...",
+      "date": "2024-01-15",
+      "image": "https://via.placeholder.com/400x200/007bff/ffffff?text=React+Basics",
+      "category": "Technology",
+      "author": "John Doe",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Redux State Management",
+      "description": "Understanding Redux for state management in React applications",
+      "content": "Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently...",
+      "date": "2024-01-20",
+      "image": "https://via.placeholder.com/400x200/28a745/ffffff?text=Redux+Guide",
+      "category": "Technology",
+      "author": "Jane Smith",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "Modern Web Development",
+      "description": "Exploring modern web development practices and tools",
+      "content": "Modern web development has evolved significantly over the years. Today's developers have access to powerful tools and frameworks...",
+      "date": "2024-01-25",
+      "image": "https://via.placeholder.com/400x200/dc3545/ffffff?text=Web+Dev",
+      "category": "Web Development",
+      "author": "Mike Johnson",
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "username": "janesmith",
+      "email": "jane@example.com",
+      "password": "password123"
+    }
+  ],
+  "categories": [
+    "Technology",
+    "Web Development",
+    "Programming",
+    "Design",
+    "Business",
+    "Lifestyle"
+  ]
+}

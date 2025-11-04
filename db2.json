@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "description": "This is the first blog post content...",
+      "date": "2025-09-25",
+      "image": "https://b.zmtcdn.com/data/pictures/7/110347/89804e4080a3201a3176f608e6b14419_featured_v2.jpg?output-format=webp",
+      "category": "Tech"
+    },
+    {
+      "id": 2,
+      "title": "First Blog Post",
+      "description": "This is the first blog post content...",
+      "date": "2025-09-25",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/43/36/97/h40cdjMARGCcgOUjZpOy_mac%2520and%2520cheese-1176.jpg",
+      "category": "Tech"
+    },
+    {
+      "id": 3,
+      "title": "First Blog Post",
+      "description": "This is the first blog post content...",
+      "date": "2025-09-25",
+      "image": "https://b.zmtcdn.com/data/pictures/7/110347/89804e4080a3201a3176f608e6b14419_featured_v2.jpg?output-format=webp",
+      "category": "Tech"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "username": "janesmith",
+      "email": "jane@example.com",
+      "password": "password123"
+    },
+    {
+      "username": "GopalVasani",
+      "email": "vgbaba1810@gmail.com",
+      "password": "gopal1234",
+      "id": 3
+    }
+  ],
+  "categories": [
+    "Tech",
+    "Web Development",
+    "Programming"
+  ]
+}
